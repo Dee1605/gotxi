@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    background: #f3f7ff;
+}
+
+
+header{
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #f3f7ff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    padding: .8rem 0rem;  
+}
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+nav ul li{
+    padding:  .4rem 1.7rem;
+    border-radius: 40px;
+    background: #5acedd;
+    list-style: none;
+    box-shadow: 0px  5px 10px #15afc384;
+}
+nav ul li:hover{
+    background-color: #15AEC3 ;
+    text-decoration: underline;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero-img{
+    height: 110vh;
+    overflow: hidden;
+    margin: auto;
+}
+
+.about{
+    background: #f3f7ff;
+}
+
+.daisy{
+    display: flex;
+    padding: 4rem 0;
+    justify-content: space-between;
+}
+
+.man-img{
+    width: 40%;
+    /* background: blue; */
+}
+
+.man-img img{
+    width: 100%;
+}
+
+.reactor{
+    width: 57%;
+    text-align: justify;
+}
+
+.reactor h1{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 40px;
+}
+
+.line{
+    background: #0D6485;
+    width: 50px;
+    height: 6px;
+    margin: 1.7rem 0;
+}
+
+.roll{
+    font-size: 15px;
+    color: #777;
+    text-align: left;
+}
+
+.box{
+    background-color: #f3faff;
+    padding: 3rem 0;
+}
+
+.btn-dark{
+    padding: .7rem 1.8rem;
+    background:#5aceed;
+    border-radius: 40px;
+    border: none;
+    border-bottom:3px #787ded solid; 
+    font-family : 'Poppins', sans-serif;
+    color: #fff;
+    margin: 3rem 0 0rem 0;
+    /* box-shadow: 0px  5px  5px 0px  #787ded ; */
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.boxes img{
+    width: 150px;
+}
+
+.boxes h4{
+    color: #17BAD1;
+    /* text-align: center; */
+}
+
+.services{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.olive{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.david{
+    width: 23%;
+    background:#fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    margin-top :1.8rem;
+    position: relative;
+    padding: 0 0 2rem 0;
+}
+
+.david:hover .badge{
+    background: #17BAD1;
+    color: white;
+}
+
+.david img {
+    width: 95%;
+    margin: 0 0 3rem 0;
+}
+
+.david h2{
+    color: #00C222;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.david p{
+    font-size: 13px;
+    line-height: 30px;
+    width: 90%;
+    margin: auto;   
+}
+
+.serv-h2{
+    font-size: 34px;
+    color: #17BAD1;
+    margin-bottom :1.2rem;
+}
+
+.heloo{
+    background: #fff;
+    padding: 3rem 0;
+}
+
+.badge{
+    height: 70px;
+    width: 70px;
+    background: #fff;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    transition: all 1s ease-in-out;
+    color: rgb(141, 141, 141);
+}
+
+i{
+    margin-top: 20.5px;
+}
+
+/* .badge:hover{
+    background: #17BAD1;
+    color: white;
+} */
+
+.linehr{
+    height: .1px;
+    background:rgba(156, 211, 205, 0.5 );
+    width: 86%;
+    margin: 1.1rem auto;
+
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    max-width: 1124px;
+}
+
+ 
